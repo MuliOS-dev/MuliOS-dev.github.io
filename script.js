@@ -260,3 +260,73 @@ console.log(
 "%cV1, V2 coming soon with implemented translation.",
 "color:#3B82F6;font-size:10px;"
 );
+
+const supportedLocales = ["en", "fr-FR", "nb-NB", "ru-RU", "sv-SE", "vi-VN"];
+const localeLabels = {
+    en: "🌐 English",
+    "fr-FR": "🌐 Français",
+    "nb-NB": "🌐 Norsk",
+    "ru-RU": "🌐 Русский",
+    "sv-SE": "🌐 Svenska",
+    "vi-VN": "🌐 Tiếng Việt"
+};
+
+const langToggle = document.querySelector(".lang-toggle");
+const langMenu = document.querySelector(".lang-menu");
+const langOptions = document.querySelectorAll(".lang-option");
+const langCurrent = document.querySelector(".lang-current");
+
+function getCurrentLocale() {
+    const segments = window.location.pathname.split("/").filter(Boolean);
+    const localeFromPath = segments.find(segment => supportedLocales.includes(segment));
+    if (localeFromPath) {
+        return localeFromPath;
+    }
+    if (window.location.pathname.includes("/fr-FR/")) return "fr-FR";
+    if (window.location.pathname.includes("/nb-NB/")) return "nb-NB";
+    if (window.location.pathname.includes("/ru-RU/")) return "ru-RU";
+    if (window.location.pathname.includes("/sv-SE/")) return "sv-SE";
+    if (window.location.pathname.includes("/vi-VN/")) return "vi-VN";
+    return "en";
+}
+
+function getTargetPath(locale) {
+    const currentPath = window.location.pathname;
+    const hasLocaleFolder = supportedLocales.some(localeName => currentPath.includes(`/${localeName}/`));
+
+    if (locale === "en") {
+        return hasLocaleFolder ? "../index.html" : "./index.html";
+    }
+
+    return hasLocaleFolder ? `../${locale}/index.html` : `./${locale}/index.html`;
+}
+
+function setActiveLanguage() {
+    const currentLocale = getCurrentLocale();
+    if (langCurrent) {
+        langCurrent.textContent = localeLabels[currentLocale] || localeLabels.en;
+    }
+    langOptions.forEach(option => {
+        option.classList.toggle("active", option.dataset.locale === currentLocale);
+    });
+}
+
+if (langToggle && langMenu) {
+    langToggle.addEventListener("click", () => {
+        document.querySelector(".language-switcher")?.classList.toggle("open");
+    });
+
+    document.addEventListener("click", (event) => {
+        if (!event.target.closest(".language-switcher")) {
+            document.querySelector(".language-switcher")?.classList.remove("open");
+        }
+    });
+
+    langOptions.forEach(option => {
+        option.addEventListener("click", () => {
+            window.location.assign(getTargetPath(option.dataset.locale));
+        });
+    });
+}
+
+setActiveLanguage();
