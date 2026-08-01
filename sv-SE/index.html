@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MuliOS — Multi Usage Linux Interface</title>
+
+    <meta name="description"
+        content="MuliOS is a modern Linux distribution currently in active development. Built for performance, simplicity and flexibility.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Background -->
+    <div class="background">
+        <div class="blur blur-one"></div>
+        <div class="blur blur-two"></div>
+        <div class="grid"></div>
+    </div>
+
+    <!-- Navigation -->
+    <header>
+
+        <nav class="navbar">
+
+            <div class="logo">
+
+                <div class="logo-icon">
+                    <img src="logo.png" alt="MuliOS Logo">
+                </div>
+
+                <div class="logo-text">
+
+                    <h2>MuliOS</h2>
+                    <span>Multi-användar Linux-gränssnitt</span>
+
+                </div>
+
+            </div>
+
+            <div class="nav-links">
+
+                <a href="#about">Om</a>
+                <a href="#features">Funktioner</a>
+                <a href="#community">Gemenskap</a>
+
+            </div>
+
+            <div class="nav-buttons">
+
+                <div class="language-switcher">
+                    <button class="lang-toggle" type="button" aria-expanded="false">
+                        <span class="lang-current">🌐 Svenska</span>
+                        <span class="lang-caret">▾</span>
+                    </button>
+                    <div class="lang-menu" role="menu">
+                        <button type="button" class="lang-option" data-locale="en">🇺🇸 English</button>
+                        <button type="button" class="lang-option" data-locale="fr-FR">🇫🇷 Français</button>
+                        <button type="button" class="lang-option" data-locale="nb-NB">🇳🇴 Norsk</button>
+                        <button type="button" class="lang-option" data-locale="ru-RU">🇷🇺 Русский</button>
+                        <button type="button" class="lang-option active" data-locale="sv-SE">🇸🇪 Svenska</button>
+                        <button type="button" class="lang-option" data-locale="vi-VN">🇻🇳 Tiếng Việt</button>
+                    </div>
+                </div>
+
+                <button id="themeToggle">
+                    🌙
+                </button>
+
+                <a href="https://github.com/AxonShell/MuliOS" class="github-btn">
+                    GitHub
+                </a>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+    <!-- Hero -->
+    <main>
+
+        <section class="hero">
+
+    <div class="hero-content">
+
+        <span class="hero-badge">
+            Multi Usage Linux Interface
+        </span>
+
+        <h1>
+            MuliOS
+        </h1>
+
+        <p>
+            En modern Linux-distribution fokuserad på enkelhet,
+            prestanda och flexibilitet.
+            Byggd för utvecklare, kreatörer och vardagliga användare.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#about" class="primary">
+                Läs mer
+            </a>
+
+            <a href="https://github.com/AxonShell/MuliOS" target="_blank" class="secondary">
+                GitHub
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+        <!-- About -->
+
+        <section id="about" class="about">
+
+            <div class="section-title">
+
+                <small>OM</small>
+
+                <h2>
+                    Designad för att vara enkel,
+                    kraftfull och anpassningsbar.
+                </h2>
+
+            </div>
+
+            <div class="about-grid">
+
+                <div class="about-card">
+
+                    <h3>Allsidig</h3>
+
+                    <p>
+
+                        Byggd för att anpassa sig till olika arbetsflöden, oavsett om du utvecklar mjukvara, skapar innehåll, studerar eller bara surfar på webben.
+
+                    </p>
+
+                </div>
+
+                <div class="about-card">
+
+                    <h3>Bekant</h3>
+
+                    <p>
+
+                        En ren och intuitiv miljö som känns bekväm från första starten, samtidigt som den är lätt att anpassa.
+
+                    </p>
+
+                </div>
+
+                <div class="about-card">
+
+                    <h3>Gemenskap</h3>
+
+                    <p>
+
+                       MuliOS växer genom feedback från gemenskapen, bidrag från öppen källkod och kontinuerliga förbättringar.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Features -->
+
+        <section id="features" class="features">
+
+            <div class="section-title">
+
+                <small>FUNKTIONER</small>
+
+                <h2>
+                    Vad MuliOS strävar efter att erbjuda
+                </h2>
+
+            </div>
+
+            <div class="feature-grid">
+
+                <article class="feature-card">
+
+                    <h3>🖥️ Allmänt bruk</h3>
+
+                    <p>
+
+                        Designad för vardagligt arbete, utveckling, multimediainnehåll och utbildning.
+
+                    </p>
+
+                </article>
+
+                <article class="feature-card">
+
+                    <h3>💾 Programvara</h3>
+
+                    <p>
+
+                        Få tillgång till ett brett utbud av Linux-program och verktyg för arbete, kreativitet och vardagliga uppgifter.
+
+                    </p>
+
+                </article>
+
+                <article class="feature-card">
+
+                    <h3>🛡️ Säker</h3>
+
+                    <p>
+
+                        Byggd med moderna säkerhetspraxis för Linux.
+
+                    </p>
+
+                </article>
+
+                <article class="feature-card">
+
+                    <h3>📦 Flexibel</h3>
+
+                    <p>
+
+                        Lätt att anpassa till många arbetsflöden och användningsfall.
+
+                    </p>
+
+                </article>
+
+                <article class="feature-card">
+
+                    <h3>🌍 Gemenskapsdriven</h3>
+
+                    <p>
+
+                        Bidrag, idéer och feedback är alltid välkomna.
+
+                    </p>
+
+                </article>
+
+                <article class="feature-card">
+
+                    <h3>🔓 Öppen källkod</h3>
+
+                    <p>
+
+                        Utvecklad öppet för att uppmuntra till samarbete, transparens och gemenskapsdeltagande.
+
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+        
+
+        <!-- Community -->
+
+        <section id="community" class="community">
+
+            <div class="community-box">
+
+                <small>GEMENSKAP</small>
+
+                <h2>
+                    Hjälp till att forma MuliOS.
+                </h2>
+
+                <p>
+
+                    MuliOS utvecklas fortfarande.
+                    Oavsett om du är utvecklare, designer,
+                    testare eller Linux-entusiast,
+                    är din feedback värdefull.
+
+                </p>
+
+                <div class="community-buttons">
+
+                    <a href="https://github.com/AxonShell/MuliOS">
+                        GitHub
+                    </a>
+
+                    <a href="comingsoon.html">
+                        Documentation
+                    </a>
+
+                    <a href="https://discord.gg/BUrDmvg9CW">
+                        Discord
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+
+    <footer>
+
+        <div class="footer-content">
+
+            <div>
+
+                <h3>MuliOS</h3>
+
+                <p>
+                    Multi-användar Linux-gränssnitt
+                </p>
+
+            </div>
+
+            <div>
+
+                <p>
+                    För närvarande i aktiv utveckling
+                </p>
+
+                <p>
+                    © 2026 MuliOS-projektet
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

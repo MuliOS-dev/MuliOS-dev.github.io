@@ -1,0 +1,139 @@
+A modern Linux distribution focused on simplicity,
+performance, and flexibility.
+Built for developers, creators, and everyday users.
+
+Современный дистрибутив Linux, ориентированный на простоту,
+производительность и гибкость.
+Создан для разработчиков, авторов контента и обычных пользователей.
+
+---
+
+Designed to be simple,
+powerful and adaptable.
+
+Создан, чтобы быть простым,
+мощным и легко адаптируемым.
+
+---
+
+Multi-Purpose
+
+Универсальный
+
+Built to adapt to different workflows, whether you're developing software, creating content, studying, or simply browsing the web.
+
+Подходит для самых разных сценариев использования: разработки программного обеспечения, создания контента, обучения или повседневной работы в интернете.
+
+---
+
+Familiar
+
+Привычный
+
+A clean and intuitive environment that feels comfortable from the first boot while remaining customizable.
+
+Чистая и интуитивно понятная среда, которая кажется знакомой с первого запуска и при этом легко настраивается.
+
+---
+
+Community
+
+Сообщество
+
+MuliOS grows through community feedback, open-source contributions, and continuous improvements.
+
+MuliOS развивается благодаря отзывам сообщества, вкладу участников с открытым исходным кодом и постоянным улучшениям.
+
+---
+
+What MuliOS aims to offer
+
+Что предлагает MuliOS
+
+---
+
+General Purpose
+
+Для любых задач
+
+Designed to be suitable for everyday computing, development, multimedia, and education.
+
+Подходит для повседневной работы, разработки, мультимедиа и обучения.
+
+---
+
+Software
+
+Программное обеспечение
+
+Access a wide range of Linux applications and tools for work, creativity, and everyday tasks.
+
+Доступ к широкому выбору Linux-приложений и инструментов для работы, творчества и повседневных задач.
+
+---
+
+Secure
+
+Безопасность
+
+Built with modern Linux security practices.
+
+Создан с использованием современных практик безопасности Linux.
+
+---
+
+Flexible
+
+Гибкость
+
+Easily adaptable to many workflows and use cases.
+
+Легко адаптируется под различные рабочие процессы и сценарии использования.
+
+---
+
+Community Driven
+
+Развивается сообществом
+
+Contributions, ideas and feedback are always welcome.
+
+Мы всегда рады вашим идеям, предложениям, отзывам и вкладу в развитие проекта.
+
+---
+
+Open Source
+
+Открытый исходный код
+
+Developed openly, encouraging collaboration, transparency, and community participation.
+
+Проект разрабатывается открыто, поощряя сотрудничество, прозрачность и участие сообщества.
+
+---
+
+Help shape MuliOS.
+
+Помогите сделать MuliOS лучше.
+
+MuliOS is still evolving.
+Whether you're a developer, designer,
+tester or Linux enthusiast,
+your feedback is valuable.
+
+MuliOS продолжает активно развиваться.
+Если вы разработчик, дизайнер,
+тестировщик или просто энтузиаст Linux —
+ваше мнение и участие очень важны.
+
+---
+
+Currently in Active Development
+
+В настоящее время находится в стадии активной разработки.
+
+---
+
+© 2026 MuliOS Project
+
+© 2026 Проект MuliOS

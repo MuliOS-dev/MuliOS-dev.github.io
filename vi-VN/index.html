@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MuliOS — Multi Usage Linux Interface</title>
+
+    <meta name="description"
+        content="MuliOS is a modern Linux distribution currently in active development. Built for performance, simplicity and flexibility.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Background -->
+    <div class="background">
+        <div class="blur blur-one"></div>
+        <div class="blur blur-two"></div>
+        <div class="grid"></div>
+    </div>
+
+    <!-- Navigation -->
+    <header>
+
+        <nav class="navbar">
+
+            <div class="logo">
+
+                <div class="logo-icon">
+                    <img src="logo.png" alt="MuliOS Logo">
+                </div>
+
+                <div class="logo-text">
+
+                    <h2>MuliOS</h2>
+                    <span>Giao diện Linux đa mục đích</span>
+
+                </div>
+
+            </div>
+
+            <div class="nav-links">
+
+                <a href="#about">Giới thiệu</a>
+                <a href="#features">Tính năng</a>
+                <a href="#community">Cộng đồng</a>
+
+            </div>
+
+            <div class="nav-buttons">
+
+                <div class="language-switcher">
+                    <button class="lang-toggle" type="button" aria-expanded="false">
+                        <span class="lang-current">🌐 Tiếng Việt</span>
+                        <span class="lang-caret">▾</span>
+                    </button>
+                    <div class="lang-menu" role="menu">
+                        <button type="button" class="lang-option" data-locale="en">🇺🇸 English</button>
+                        <button type="button" class="lang-option" data-locale="fr-FR">🇫🇷 Français</button>
+                        <button type="button" class="lang-option" data-locale="nb-NB">🇳🇴 Norsk</button>
+                        <button type="button" class="lang-option" data-locale="ru-RU">🇷🇺 Русский</button>
+                        <button type="button" class="lang-option" data-locale="sv-SE">🇸🇪 Svenska</button>
+                        <button type="button" class="lang-option active" data-locale="vi-VN">🇻🇳 Tiếng Việt</button>
+                    </div>
+                </div>
+
+                <button id="themeToggle">
+                    🌙
+                </button>
+
+                <a href="https://github.com/AxonShell/MuliOS" class="github-btn">
+                    GitHub
+                </a>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+    <!-- Hero -->
+    <main>
+
+        <section class="hero">
+
+    <div class="hero-content">
+
+        <span class="hero-badge">
+            Multi Usage Linux Interface
+        </span>
+
+        <h1>
+            MuliOS
+        </h1>
+
+        <p>
+            Phân phối Linux hiện đại tập trung vào sự đơn giản,
+            hiệu năng và linh hoạt.
+            Được xây dựng cho lập trình viên, người sáng tạo và người dùng hàng ngày.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#about" class="primary">
+                Tìm hiểu thêm
+            </a>
+
+            <a href="https://github.com/AxonShell/MuliOS" target="_blank" class="secondary">
+                GitHub
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+        <!-- About -->
+
+        <section id="about" class="about">
+
+            <div class="section-title">
+
+                <small>GIỚI THIỆU</small>
+
+                <h2>
+                    Được thiết kế để đơn giản,
+                    mạnh mẽ và thích nghi.
+                </h2>
+
+            </div>
+
+            <div class="about-grid">
+
+                <div class="about-card">
+
+                    <h3>Đa năng</h3>
+
+                    <p>
+
+                        Được xây dựng để thích ứng với nhiều quy trình làm việc khác nhau, từ phát triển phần mềm, sáng tạo nội dung, học tập cho đến chỉ đơn giản là duyệt web.
+
+                    </p>
+
+                </div>
+
+                <div class="about-card">
+
+                    <h3>Thân thiện</h3>
+
+                    <p>
+
+                        Một môi trường sạch sẽ và trực quan, dễ làm quen ngay từ lần khởi động đầu tiên nhưng vẫn có thể tùy chỉnh dễ dàng.
+
+                    </p>
+
+                </div>
+
+                <div class="about-card">
+
+                    <h3>Cộng đồng</h3>
+
+                    <p>
+
+                       MuliOS phát triển nhờ phản hồi từ cộng đồng, các đóng góp mã nguồn mở và những cải tiến liên tục.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Features -->
+
+        <section id="features" class="features">
+
+            <div class="section-title">
+
+                <small>TÍNH NĂNG</small>
+
+                <h2>
+                    Những gì MuliOS hướng tới
+                </h2>
+
+            </div>
+
+            <div class="feature-grid">
+
+                <article class="feature-card">
+
+                    <h3>🖥️ Mục đích chung</h3>
+
+                    <p>
+
+                        Thiết kế phù hợp cho việc sử dụng hàng ngày, phát triển, đa phương tiện và giáo dục.
+
+                    </p>
+
+                </article>
+
+                <article class="feature-card">
+
+                    <h3>💾 Phần mềm</h3>
+
+                    <p>
+
+                        Truy cập nhiều ứng dụng và công cụ Linux cho công việc, sáng tạo và các tác vụ hàng ngày.
+
+                    </p>
+
+                </article>
+
+                <article class="feature-card">
+
+                    <h3>🛡️ An toàn</h3>
+
+                    <p>
+
+                        Được xây dựng theo các thực hành bảo mật Linux hiện đại.
+
+                    </p>
+
+                </article>
+
+                <article class="feature-card">
+
+                    <h3>📦 Linh hoạt</h3>
+
+                    <p>
+
+                        Dễ dàng thích ứng với nhiều quy trình làm việc và tình huống sử dụng khác nhau.
+
+                    </p>
+
+                </article>
+
+                <article class="feature-card">
+
+                    <h3>🌍 Do cộng đồng dẫn dắt</h3>
+
+                    <p>
+
+                        Các đóng góp, ý tưởng và phản hồi luôn được hoan nghênh.
+
+                    </p>
+
+                </article>
+
+                <article class="feature-card">
+
+                    <h3>🔓 Mã nguồn mở</h3>
+
+                    <p>
+
+                        Phát triển công khai để khuyến khích hợp tác, minh bạch và tham gia của cộng đồng.
+
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+        
+
+        <!-- Community -->
+
+        <section id="community" class="community">
+
+            <div class="community-box">
+
+                <small>CỘNG ĐỒNG</small>
+
+                <h2>
+                    Hãy cùng định hình MuliOS.
+                </h2>
+
+                <p>
+
+                    MuliOS vẫn đang tiếp tục phát triển.
+                    Cho dù bạn là lập trình viên, nhà thiết kế,
+                    người kiểm tra hay người đam mê Linux,
+                    phản hồi của bạn đều rất có giá trị.
+
+                </p>
+
+                <div class="community-buttons">
+
+                    <a href="https://github.com/AxonShell/MuliOS">
+                        GitHub
+                    </a>
+
+                    <a href="comingsoon.html">
+                        Documentation
+                    </a>
+
+                    <a href="https://discord.gg/BUrDmvg9CW">
+                        Discord
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+
+    <footer>
+
+        <div class="footer-content">
+
+            <div>
+
+                <h3>MuliOS</h3>
+
+                <p>
+                    Giao diện Linux đa mục đích
+                </p>
+
+            </div>
+
+            <div>
+
+                <p>
+                    Hiện đang trong giai đoạn phát triển tích cực
+                </p>
+
+                <p>
+                    © 2026 Dự án MuliOS
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

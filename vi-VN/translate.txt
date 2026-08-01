@@ -1,0 +1,72 @@
+A modern Linux distribution focused on simplicity,
+performance and flexibility.
+Built for developers, creators and everyday users.
+
+
+Designed to be simple,
+powerful and adaptable.
+
+
+Multi-Purpose
+
+Built to adapt to different workflows, whether you're developing software, creating content, studying, or simply browsing the web.
+
+
+Familiar
+
+A clean and intuitive environment that feels comfortable from the first boot while remaining customizable.
+
+
+Community
+
+MuliOS grows through community feedback, open-source contributions, and continuous improvements.
+
+
+
+What MuliOS aims to offer
+
+
+General Purpose
+
+Designed to be suitable for everyday computing, development, multimedia, and education.
+
+
+Software
+
+Access a wide range of Linux applications and tools for work, creativity, and everyday tasks.
+
+
+Secure
+
+Built with modern Linux security practices.
+
+
+Flexible
+
+Easily adaptable to many workflows and use cases.
+
+
+Community Driven
+
+Contributions, ideas and feedback are always welcome.
+
+
+Open Source
+
+Developed openly, encouraging collaboration, transparency, and community participation.
+
+
+
+Help shape MuliOS.
+
+
+MuliOS is still evolving.
+Whether you're a developer, designer,
+tester or Linux enthusiast,
+your feedback is valuable.
+
+
+Currently in Active Development
+
+
+© 2026 MuliOS Project

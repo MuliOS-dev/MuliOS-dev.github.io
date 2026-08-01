@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MuliOS — Multi Usage Linux Interface</title>
+
+    <meta name="description"
+        content="MuliOS is a modern Linux distribution currently in active development. Built for performance, simplicity and flexibility.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Background -->
+    <div class="background">
+        <div class="blur blur-one"></div>
+        <div class="blur blur-two"></div>
+        <div class="grid"></div>
+    </div>
+
+    <!-- Navigation -->
+    <header>
+
+        <nav class="navbar">
+
+            <div class="logo">
+
+                <div class="logo-icon">
+                    <img src="logo.png" alt="MuliOS Logo">
+                </div>
+
+                <div class="logo-text">
+
+                    <h2>MuliOS</h2>
+                    <span>Многоцелевой Linux-интерфейс</span>
+
+                </div>
+
+            </div>
+
+            <div class="nav-links">
+
+                <a href="#about">О проекте</a>
+                <a href="#features">Возможности</a>
+                <a href="#community">Сообщество</a>
+
+            </div>
+
+            <div class="nav-buttons">
+
+                <div class="language-switcher">
+                    <button class="lang-toggle" type="button" aria-expanded="false">
+                        <span class="lang-current">🌐 Русский</span>
+                        <span class="lang-caret">▾</span>
+                    </button>
+                    <div class="lang-menu" role="menu">
+                        <button type="button" class="lang-option" data-locale="en">🇺🇸 English</button>
+                        <button type="button" class="lang-option" data-locale="fr-FR">🇫🇷 Français</button>
+                        <button type="button" class="lang-option" data-locale="nb-NB">🇳🇴 Norsk</button>
+                        <button type="button" class="lang-option active" data-locale="ru-RU">🇷🇺 Русский</button>
+                        <button type="button" class="lang-option" data-locale="sv-SE">🇸🇪 Svenska</button>
+                        <button type="button" class="lang-option" data-locale="vi-VN">🇻🇳 Tiếng Việt</button>
+                    </div>
+                </div>
+
+                <button id="themeToggle">
+                    🌙
+                </button>
+
+                <a href="https://github.com/AxonShell/MuliOS" class="github-btn">
+                    GitHub
+                </a>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+    <!-- Hero -->
+    <main>
+
+        <section class="hero">
+
+    <div class="hero-content">
+
+        <span class="hero-badge">
+            Multi Usage Linux Interface
+        </span>
+
+        <h1>
+            MuliOS
+        </h1>
+
+        <p>
+            Современный дистрибутив Linux, ориентированный на простоту,
+            производительность и гибкость.
+            Создан для разработчиков, авторов контента и обычных пользователей.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#about" class="primary">
+                Узнать больше
+            </a>
+
+            <a href="https://github.com/AxonShell/MuliOS" target="_blank" class="secondary">
+                GitHub
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+        <!-- About -->
+
+        <section id="about" class="about">
+
+            <div class="section-title">
+
+                <small>О ПРОЕКТЕ</small>
+
+                <h2>
+                    Создан, чтобы быть простым,
+                    мощным и легко адаптируемым.
+                </h2>
+
+            </div>
+
+            <div class="about-grid">
+
+                <div class="about-card">
+
+                    <h3>Универсальный</h3>
+
+                    <p>
+
+                        Подходит для самых разных сценариев использования: разработки программного обеспечения, создания контента, обучения или повседневной работы в интернете.
+
+                    </p>
+
+                </div>
+
+                <div class="about-card">
+
+                    <h3>Привычный</h3>
+
+                    <p>
+
+                        Чистая и интуитивно понятная среда, которая кажется знакомой с первого запуска и при этом легко настраивается.
+
+                    </p>
+
+                </div>
+
+                <div class="about-card">
+
+                    <h3>Сообщество</h3>
+
+                    <p>
+
+                       MuliOS развивается благодаря отзывам сообщества, вкладу участников с открытым исходным кодом и постоянным улучшениям.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Features -->
+
+        <section id="features" class="features">
+
+            <div class="section-title">
+
+                <small>ВОЗМОЖНОСТИ</small>
+
+                <h2>
+                    Что предлагает MuliOS
+                </h2>
+
+            </div>
+
+            <div class="feature-grid">
+
+                <article class="feature-card">
+
+                    <h3>🖥️ Для любых задач</h3>
+
+                    <p>
+
+                        Подходит для повседневной работы, разработки, мультимедиа и обучения.
+
+                    </p>
+
+                </article>
+
+                <article class="feature-card">
+
+                    <h3>💾 Программное обеспечение</h3>
+
+                    <p>
+
+                        Доступ к широкому выбору Linux-приложений и инструментов для работы, творчества и повседневных задач.
+
+                    </p>
+
+                </article>
+
+                <article class="feature-card">
+
+                    <h3>🛡️ Безопасность</h3>
+
+                    <p>
+
+                        Создан с использованием современных практик безопасности Linux.
+
+                    </p>
+
+                </article>
+
+                <article class="feature-card">
+
+                    <h3>📦 Гибкость</h3>
+
+                    <p>
+
+                        Легко адаптируется под различные рабочие процессы и сценарии использования.
+
+                    </p>
+
+                </article>
+
+                <article class="feature-card">
+
+                    <h3>🌍 Развивается сообществом</h3>
+
+                    <p>
+
+                        Мы всегда рады вашим идеям, предложениям, отзывам и вкладу в развитие проекта.
+
+                    </p>
+
+                </article>
+
+                <article class="feature-card">
+
+                    <h3>🔓 Открытый исходный код</h3>
+
+                    <p>
+
+                        Проект разрабатывается открыто, поощряя сотрудничество, прозрачность и участие сообщества.
+
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+        
+
+        <!-- Community -->
+
+        <section id="community" class="community">
+
+            <div class="community-box">
+
+                <small>СООБЩЕСТВО</small>
+
+                <h2>
+                    Помогите сделать MuliOS лучше.
+                </h2>
+
+                <p>
+
+                    MuliOS продолжает активно развиваться.
+                    Если вы разработчик, дизайнер,
+                    тестировщик или просто энтузиаст Linux —
+                    ваше мнение и участие очень важны.
+
+                </p>
+
+                <div class="community-buttons">
+
+                    <a href="https://github.com/AxonShell/MuliOS">
+                        GitHub
+                    </a>
+
+                    <a href="comingsoon.html">
+                        Documentation
+                    </a>
+
+                    <a href="https://discord.gg/BUrDmvg9CW">
+                        Discord
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+
+    <footer>
+
+        <div class="footer-content">
+
+            <div>
+
+                <h3>MuliOS</h3>
+
+                <p>
+                    Многоцелевой Linux-интерфейс
+                </p>
+
+            </div>
+
+            <div>
+
+                <p>
+                    В настоящее время находится в стадии активной разработки
+                </p>
+
+                <p>
+                    © 2026 Проект MuliOS
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+En moderne Linux-distribusjon med fokus på enkelhet,
+ytelse og fleksibilitet.
+Bygget for utviklere, skapere og vanlige brukere.
+
+Utformet for å være enkel,
+kraftig og tilpasningsdyktig.
+
+Flerbruks
+
+Bygget for å tilpasse seg ulike arbeidsflyter, enten du utvikler programvare, skaper innhold, studerer eller bare surfer på nettet.
+
+Velkjent
+
+Et rent og intuitivt miljø som føles komfortabelt fra første oppstart, samtidig som det kan tilpasses.
+
+Fellesskap
+
+MuliOS vokser gjennom tilbakemeldinger fra fellesskapet, bidrag til åpen kildekode og kontinuerlige forbedringer.
+
+Hva MuliOS har som mål å tilby
+
+Generelt formål
+
+Utformet for å være egnet til daglig bruk, utvikling, multimedia og utdanning.
+
+Programvare
+
+Få tilgang til et bredt utvalg av Linux-applikasjoner og verktøy for arbeid, kreativitet og daglige oppgaver.
+
+Sikkert
+
+Bygget med moderne Linux-sikkerhetspraksis.
+
+Fleksibelt
+
+Enkelt å tilpasse til mange arbeidsflyter og bruksområder.
+
+Fellesskapsdrevet
+
+Bidrag, idéer og tilbakemeldinger er alltid velkomne.
+
+Åpen kildekode
+
+Utviklet åpent, med fokus på samarbeid, åpenhet og deltakelse fra fellesskapet.
+
+Hjelp med å forme MuliOS.
+
+MuliOS er fortsatt under utvikling.
+Enten du er utvikler, designer,
+tester eller Linux-entusiast,
+er tilbakemeldingene dine verdifulle.
+
+For øyeblikket under aktiv utvikling
+
+© 2026 MuliOS-prosjektet

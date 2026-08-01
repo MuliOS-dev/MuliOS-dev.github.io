@@ -1,0 +1,123 @@
+A modern Linux distribution focused on simplicity,
+performance and flexibility.
+Built for developers, creators and everyday users.
+
+Une distribution Linux moderne axée sur la simplicité,
+les performances et la flexibilité.
+Conçue pour les développeurs, les créateurs de contenu et les utilisateurs du quotidien.
+
+---
+
+Designed to be simple,
+powerful and adaptable.
+
+Conçue pour être simple,
+puissante et adaptable.
+
+---
+
+Multi-Purpose
+
+Polyvalente
+
+Built to adapt to different workflows, whether you're developing software, creating content, studying, or simply browsing the web.
+
+Pensée pour s'adapter à différents usages, que vous développiez des logiciels, créiez du contenu, étudiiez ou naviguiez simplement sur le Web.
+
+---
+
+Familiar
+
+Intuitive
+
+Un environnement propre et intuitif, agréable dès le premier démarrage, tout en restant facilement personnalisable.
+
+---
+
+Community
+
+Communauté
+
+MuliOS évolue grâce aux retours de sa communauté, aux contributions open source et à une amélioration continue.
+
+---
+
+What MuliOS aims to offer
+
+Ce que MuliOS a pour objectif d'offrir
+
+---
+
+General Purpose
+
+Usage général
+
+Conçue pour répondre aux besoins de l'informatique quotidienne, du développement, du multimédia et de l'éducation.
+
+---
+
+Software
+
+Logiciels
+
+Accédez à une large sélection d'applications et d'outils Linux pour le travail, la création et les tâches du quotidien.
+
+---
+
+Secure
+
+Sécurisée
+
+Construite selon les meilleures pratiques modernes en matière de sécurité sous Linux.
+
+---
+
+Flexible
+
+Flexible
+
+S'adapte facilement à de nombreux flux de travail et cas d'utilisation.
+
+---
+
+Community Driven
+
+Portée par la communauté
+
+Les contributions, les idées et les retours sont toujours les bienvenus.
+
+---
+
+Open Source
+
+Open Source
+
+Développée de manière ouverte afin de favoriser la collaboration, la transparence et la participation de la communauté.
+
+---
+
+Help shape MuliOS.
+
+Contribuez à façonner MuliOS.
+
+MuliOS is still evolving.
+Whether you're a developer, designer,
+tester or Linux enthusiast,
+your feedback is valuable.
+
+MuliOS est toujours en pleine évolution.
+Que vous soyez développeur, designer,
+testeur ou passionné de Linux,
+vos retours et votre participation sont précieux.
+
+---
+
+Currently in Active Development
+
+Actuellement en développement actif.
+
+---
+
+© 2026 MuliOS Project
+
+© 2026 Projet MuliOS
