@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MuliOS A26.07.02S — Arch Edition</title>
+
+    <meta name="description"
+        content="MuliOS A26.07.02S is the upcoming Arch-based release of MuliOS, bringing a full Arch pipeline, Archinstall integration and the new MUpdate a1.0.4 OTA updater.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        /* Arch Edition — blue palette override, scoped to this page only */
+        :root {
+            --primary: #1a3f8f;
+            --accent: #2e9fc4;
+        }
+
+        .arch-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .arch-badge img {
+            width: 18px;
+            height: 18px;
+        }
+
+        .version-pill {
+            display: inline-block;
+            padding: 6px 16px;
+            border-radius: 999px;
+            border: 1px solid var(--border);
+            background: var(--surface);
+            font-weight: 700;
+            letter-spacing: .5px;
+            color: var(--accent);
+            margin-bottom: 20px;
+        }
+
+        .pipeline {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            margin: 40px auto 0;
+            width: min(1000px, 92%);
+        }
+
+        .pipeline span.step {
+            padding: 12px 20px;
+            border-radius: 14px;
+            border: 1px solid var(--border);
+            background: var(--surface);
+            font-weight: 600;
+            font-size: .95rem;
+        }
+
+        .pipeline span.arrow {
+            color: var(--text-secondary);
+            font-size: 1.2rem;
+        }
+
+        .status-tag {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 999px;
+            font-size: .75rem;
+            font-weight: 700;
+            letter-spacing: .5px;
+            margin-bottom: 14px;
+        }
+
+        .status-tag.new {
+            background: rgba(46, 159, 196, .15);
+            color: var(--accent);
+        }
+
+        .status-tag.removed {
+            background: rgba(220, 60, 60, .12);
+            color: #d95050;
+        }
+
+        .flow-list {
+            list-style: none;
+            counter-reset: flow;
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+            margin-top: 20px;
+        }
+
+        .flow-list li {
+            counter-increment: flow;
+            position: relative;
+            padding-left: 46px;
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        .flow-list li::before {
+            content: counter(flow);
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: grid;
+            place-items: center;
+            font-weight: 700;
+            color: white;
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 30px;
+            color: var(--text-secondary);
+            font-weight: 500;
+        }
+
+        .back-link:hover {
+            color: var(--text);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Background -->
+    <div class="background">
+        <div class="blur blur-one"></div>
+        <div class="blur blur-two"></div>
+        <div class="grid"></div>
+    </div>
+
+    <!-- Navigation -->
+    <header>
+
+        <nav class="navbar">
+
+            <div class="logo">
+
+                <div class="logo-icon">
+                    <img src="ArchMuli-nobg.png" alt="MuliOS Arch Edition Logo">
+                </div>
+
+                <div class="logo-text">
+
+                    <h2>MuliOS</h2>
+                    <span>Arch Edition</span>
+
+                </div>
+
+            </div>
+
+            <div class="nav-links">
+
+                <a href="index.html">Home</a>
+                <a href="#mupdate">MUpdate</a>
+                <a href="#roadmap">What's changing</a>
+
+            </div>
+
+            <div class="nav-buttons">
+
+                <button id="themeToggle">
+                    🌙
+                </button>
+
+                <a href="https://github.com/AxonShell/MuliOS" class="github-btn">
+                    GitHub
+                </a>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+    <!-- Hero -->
+    <main>
+
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <span class="hero-badge arch-badge">
+                    <img src="ArchMuli-nobg.png" alt="">
+                    Arch Edition — In Development
+                </span>
+
+                <h1>
+                    MuliOS A26.07.02S
+                </h1>
+
+                <p>
+                    The next MuliOS release is going Arch-first. A26.07.02S brings a real
+                    Archinstall-backed installer, a from-scratch Arch kernel build, cleaner
+                    profiles, and a brand new ISO-based OTA updater: MUpdate a1.0.4.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#roadmap" class="primary">
+                        See what's changing
+                    </a>
+
+                    <a href="index.html" class="secondary">
+                        Back to MuliOS
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <div class="pipeline">
+            <span class="step">Installer</span>
+            <span class="arrow">→</span>
+            <span class="step">Arch Kernel</span>
+            <span class="arrow">→</span>
+            <span class="step">Profiles</span>
+            <span class="arrow">→</span>
+            <span class="step">ISO</span>
+            <span class="arrow">→</span>
+            <span class="step">MUpdate OTA</span>
+        </div>
+
+        <!-- Overview -->
+
+        <section id="roadmap" class="about">
+
+            <div class="section-title">
+
+                <small>MULIOS-ARCH</small>
+
+                <h2>
+                    Moving from an Arch-based build to a complete Arch pipeline.
+                </h2>
+
+            </div>
+
+            <div class="about-grid">
+
+                <div class="about-card">
+
+                    <h3>Arch comes first</h3>
+
+                    <p>
+                        The <code>A</code> in MuliOS versioning refers to Arch. Arch support is
+                        becoming the primary direction, and the current MUpdate implementation is
+                        focused on Arch first.
+                    </p>
+
+                </div>
+
+                <div class="about-card">
+
+                    <h3>Real Archinstall</h3>
+
+                    <p>
+                        Archinstall integration is being added to the Python installer, so setup
+                        uses the actual Archinstall backend instead of a fake or custom imitation.
+                    </p>
+
+                </div>
+
+                <div class="about-card">
+
+                    <h3>Faster testing</h3>
+
+                    <p>
+                        The installer is being built toward supporting CTRL+H to skip the current
+                        step and move forward, useful for testing and automated installs.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- MUpdate -->
+
+        <section id="mupdate" class="features">
+
+            <div class="section-title">
+
+                <small>OTA UPDATES</small>
+
+                <h2>
+                    MUpdate a1.0.4 is now the real updater
+                </h2>
+
+            </div>
+
+            <div class="feature-grid">
+
+                <article class="feature-card">
+
+                    <span class="status-tag removed">REMOVED</span>
+
+                    <h3>mupdate a1.0.3</h3>
+
+                    <p>
+                        The old <code>mupdate</code> a1.0.3 has been removed at the
+                        MuliOS-Arch project level. It's fully replaced by MUpdate a1.0.4.
+                    </p>
+
+                </article>
+
+                <article class="feature-card">
+
+                    <span class="status-tag new">NEW</span>
+
+                    <h3>MUpdate a1.0.4</h3>
+
+                    <p>
+                        OTA updates are now designed around complete MuliOS ISOs rather than
+                        individual packages, making updates more predictable and easier to verify.
+                    </p>
+
+                </article>
+
+                <article class="feature-card">
+
+                    <h3>How an update runs</h3>
+
+                    <ol class="flow-list">
+                        <li>Downloads the split ISO</li>
+                        <li>Reconstructs and verifies it</li>
+                        <li>Backs up user data</li>
+                        <li>Boots an update environment</li>
+                        <li>Installs the new MuliOS system</li>
+                        <li>Restores data and settings</li>
+                        <li>Reboots into the updated system</li>
+                    </ol>
+
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- Kernel & structure -->
+
+        <section class="about">
+
+            <div class="section-title">
+
+                <small>UNDER THE HOOD</small>
+
+                <h2>
+                    Kernel work and project cleanup
+                </h2>
+
+            </div>
+
+            <div class="about-grid">
+
+                <div class="about-card">
+
+                    <h3>Arch kernel, not Ubuntu</h3>
+
+                    <p>
+                        The kernels previously under <code>C:\MuliOS\kernels\...</code> were
+                        Ubuntu <code>.deb</code> kernels, not Arch kernels. Arch kernel work is
+                        now being done separately through the Arch/WSL environment using an Arch
+                        <code>PKGBUILD</code>.
+                    </p>
+
+                </div>
+
+                <div class="about-card">
+
+                    <h3>Cleaner project structure</h3>
+
+                    <p>
+                        Profile directories containing <code>airrootfs</code> are being excluded
+                        from the normal tree and output, instead of being treated as part of the
+                        main build structure.
+                    </p>
+
+                </div>
+
+                <div class="about-card">
+
+                    <h3>Beta build optimisation</h3>
+
+                    <p>
+                        Ongoing beta builds are bringing better overall optimisation ahead of the
+                        A26.07.02S release.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Community -->
+
+        <section id="community" class="community">
+
+            <div class="community-box">
+
+                <small>ARCH EDITION</small>
+
+                <h2>
+                    A26.07.02S is on the way.
+                </h2>
+
+                <p>
+                    Follow along as MuliOS moves to a full Arch pipeline — installer, kernel,
+                    profiles, ISO and MUpdate OTA. Feedback and testers are always welcome.
+                </p>
+
+                <div class="community-buttons">
+
+                    <a href="https://github.com/AxonShell/MuliOS">
+                        GitHub
+                    </a>
+
+                    <a href="index.html">
+                        Back to MuliOS
+                    </a>
+
+                    <a href="https://discord.gg/BUrDmvg9CW">
+                        Discord
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+
+    <footer>
+
+        <div class="footer-content">
+
+            <div>
+
+                <h3>MuliOS</h3>
+
+                <p>
+                    Arch Edition — A26.07.02S
+                </p>
+
+            </div>
+
+            <div>
+
+                <p>
+                    Currently in Active Development
+                </p>
+
+                <p>
+                    © 2026 MuliOS Project
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
