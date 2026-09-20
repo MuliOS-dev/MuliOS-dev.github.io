@@ -974,6 +974,15 @@ section{
 
 }
 
+.credits{width:min(1200px,92%);margin:120px auto 0;}
+.credits-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px;}
+.credit-card{min-width:0;min-height:150px;padding:26px;border:1px solid var(--border);border-radius:20px;background:var(--surface);backdrop-filter:blur(18px);box-shadow:var(--shadow);transition:var(--transition);}
+.credit-card img{display:block;width:56px;height:56px;margin-bottom:18px;object-fit:contain;}
+.credit-card:hover{transform:translateY(-6px);border-color:rgba(134,188,65,.4);}
+.credit-card span{color:var(--accent);font-size:.8rem;font-weight:700;letter-spacing:2px;}
+.credit-card h3{margin:22px 0 8px;font-size:1.1rem;overflow-wrap:anywhere;word-break:break-word;}
+.credit-card p{color:var(--text-secondary);font-size:.9rem;line-height:1.5;overflow-wrap:anywhere;word-break:break-word;}
+
 .community-box{
 
     position:relative;
