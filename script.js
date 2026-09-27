@@ -8,7 +8,7 @@
   themeButton?.addEventListener("click",()=>{html.dataset.theme=html.dataset.theme==="dark"?"light":"dark";localStorage.setItem("mulios-theme",html.dataset.theme);themeLabel();});
 
   const supported=["en","fr-FR","nb-NB","ru-RU","sv-SE","vi-VN"];
-  const labels={en:"English",""fr-FR":"Français", "nb-NB":"Norsk","ru-RU":"Русский","sv-SE":"Svenska","vi-VN":"Tiếng Việt"};
+  const labels={en:"English","fr-FR":"Français", "nb-NB":"Norsk","ru-RU":"Русский","sv-SE":"Svenska","vi-VN":"Tiếng Việt"};
   const current=location.pathname.split("/").filter(Boolean).find(x=>supported.includes(x)) || "en";
   const switcher=document.querySelector(".language-switcher"), toggle=document.querySelector(".lang-toggle"), menu=document.querySelector(".lang-menu"), currentLabel=document.querySelector(".lang-current");
   if(currentLabel) currentLabel.textContent=labels[current]||"English";
