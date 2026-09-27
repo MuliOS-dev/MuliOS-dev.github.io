@@ -42,11 +42,11 @@ function updateThemeIcon(){
 
     if(html.getAttribute("data-theme")==="dark"){
 
-        themeButton.textContent="☀";
+        themeButton.textContent="Light";
 
     }else{
 
-        themeButton.textContent="🌙";
+        themeButton.textContent="Dark";
 
     }
 
@@ -262,14 +262,7 @@ console.log(
 );
 
 const supportedLocales = ["en", "fr-FR", "nb-NB", "ru-RU", "sv-SE", "vi-VN"];
-const localeLabels = {
-    en: "🌐 English",
-    "fr-FR": "🌐 Français",
-    "nb-NB": "🌐 Norsk",
-    "ru-RU": "🌐 Русский",
-    "sv-SE": "🌐 Svenska",
-    "vi-VN": "🌐 Tiếng Việt"
-};
+const localeLabels = { en: "English", "fr-FR": "Français", "nb-NB": "Norsk", "ru-RU": "Русский", "sv-SE": "Svenska", "vi-VN": "Tiếng Việt" };
 
 const langToggle = document.querySelector(".lang-toggle");
 const langMenu = document.querySelector(".lang-menu");
